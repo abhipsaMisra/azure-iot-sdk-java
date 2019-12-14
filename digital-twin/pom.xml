@@ -3,9 +3,9 @@
 <project>
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.microsoft.azure.sdk.iot</groupId>
-    <artifactId>iot-sdk-java-digital-twin</artifactId>
+    <artifactId>azure-iot-digitaltwin</artifactId>
     <version>1.0.1</version>
-    <name>Azure IoT Sdk Java Digital Twin</name>
+    <name>Microsoft Azure IoT client library for Digital Twin</name>
     <packaging>pom</packaging>
     <url>http://azure.github.io/azure-iot-sdk-java/</url>
     <licenses>

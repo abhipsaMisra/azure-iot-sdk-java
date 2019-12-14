@@ -8,7 +8,7 @@ android {
     compileSdkVersion 29
     buildToolsVersion "29.0.2"
     defaultConfig {
-        applicationId "com.microsoft.azure.sdk.iot.digitaltwin.sample"
+        applicationId "com.microsoft.azure.iot.digitaltwin.device.sample"
         minSdkVersion 19
         targetSdkVersion 29
         versionCode 1
@@ -35,7 +35,7 @@ dependencies {
     implementation 'com.google.android.material:material:1.0.0'
     implementation 'com.github.tony19:logback-android:2.0.0'
     implementation 'commons-io:commons-io:2.6'
-    implementation 'com.microsoft.azure.sdk.iot:iot-sdk-java-digital-twin-device-preview:1.0.1'
+    implementation 'com.microsoft.azure.sdk.iot:azure-iot-digitaltwin-device-preview:1.0.1'
     compileOnly 'org.projectlombok:lombok:1.18.10'
     annotationProcessor 'org.projectlombok:lombok:1.18.10'
 }
